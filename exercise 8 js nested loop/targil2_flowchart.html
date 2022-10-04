@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>flowchart</title>
+</head>
+<body>
+    <script>
+        a = parseInt(prompt('enter number #1'))
+        b = parseInt(prompt('enter number #2'))
+        p = 1
+
+        while ( b > 0){
+            m = 0
+            t = a
+            
+            while ( t > 0){
+                m = m + p
+                t = t - 1
+            }
+
+            p = m 
+            b = b - 1
+        }
+
+        document.write(`${p} <br/>`)
+
+    </script>
+    <img src="flowchart.jpg">
+    
+</body>
+</html>

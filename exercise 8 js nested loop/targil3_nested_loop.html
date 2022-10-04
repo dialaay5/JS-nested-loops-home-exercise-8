@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>nested loop</title>
+</head>
+<body>
+    <script>
+        x = parseInt(prompt('input a number'))
+
+        while ( x > -1){
+            sum = 0
+            while (x > 0){
+                sum = sum + (x % 10)
+                x = Math.floor( x / 10)
+            }
+            document.write(`${sum}`)
+            document.write('<br/>')
+            x = parseInt(prompt('input a number'))
+        }
+    </script>
+    <img src="insted loop.jpg" >
+    
+</body>
+</html>
